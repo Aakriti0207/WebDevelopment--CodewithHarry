@@ -1,0 +1,77 @@
+header{
+    /* border: 4px outset black; */
+    margin: 0;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkorchid;
+    position:sticky;
+}
+.Logo{
+    text-align: left;
+    margin: 10px 950px 220px 0px;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.element{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    row-gap: 10px;
+}
+header>button{
+    background-color: rgb(198, 236, 223);
+    border-radius: 8px;
+}
+.containers{
+    border: 2px solid black;
+    /* height: 60vh; */
+    margin: 7px;
+    background-color: green;
+    position: relative;
+}
+.first, .second{
+    border: 2px solid black;
+    height: 50vh;
+    width: 25vw;
+    display:inline-block;
+}
+.first{
+    margin: 40px 25px 25px 280px;
+    background-color: brown;
+    display:inline-block;
+    
+}
+.second{
+    margin: px 25px 550px 1000px;
+    display:inline-block;
+    background-color: aqua;
+}
+.content{
+    border: 5px solid black;
+    height:fit-content;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    color:deeppink;
+    border-radius: 75px;
+}
+footer{
+    background-color: blueviolet;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: wheat;
+    width:100%;
+    padding-top: 10px;
+}
+.HarrySir{
+    border-radius: 100%;
+    height: 50px;
+    position:fixed;
+    right: 0;
+}
