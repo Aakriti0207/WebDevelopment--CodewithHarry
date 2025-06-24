@@ -1,0 +1,25 @@
+header{
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    width:80%;
+    margin: 0 auto;
+    background-color: beige;
+}
+.logo{
+    height: 70px;
+    display: inline;
+}
+.nav{
+    position: sticky;
+    top:0;
+}
+.elements a{
+    display: inline;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: large;
+    
+
+
+}
