@@ -1,25 +1,66 @@
 header{
-    /* margin-left: 100px;
-    margin-right: 100px; */
     width:80%;
     margin: 0 auto;
     background-color: beige;
+    display: flex;
+    top: 0;
+    flex-flow: row wrap;
+    justify-content: center;
 }
-.logo{
+.ULlogo{
     height: 70px;
     display: inline;
+    margin: 0;
+    padding: 0;
 }
 .nav{
     position: sticky;
     top:0;
 }
 .elements a{
-    display: inline;
+    display: inline-flex;
+    flex-direction: row;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: large;
-    
+    font-weight: 700;
+    padding-top: 25px;
+}
+.A{
+    padding-left: 400px;
+}
+.b,.c, .d{
+    padding-left: 20px;
+}
+.buynow{
+    margin-left: 20px;
+    padding: 4px 8px 4px 8px;
+    font-weight: bolder;
+    border-width: 3px;
+    background-color: transparent;
+}
+.heading{
+    text-align: center;
+}
 
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+main div p:nth-child(1){
+    font-size: 80px;
+    font-weight: 50px;
+}
+span{
+    font-weight:bolder;
+}
 
+main button{
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:darkturquoise;
+    padding: 15px;
+    border-radius: 10px;
+    color: aliceblue;
 }
