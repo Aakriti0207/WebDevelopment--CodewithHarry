@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-Property</title>
+    <style>
+        .ball{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            border-radius: 100px;
+            position:absolute;
+            /* animation: animateX 1s linear infinite; */
+            animation:animateX 5s linear infinite, animateY 1s ease infinite alternate; 
+        }
+        .container{
+            height: 700px;
+            width: 1000px;
+            background-color: goldenrod;
+            position:relative;
+        }
+        @keyframes animateX{
+            from{
+                left:0;
+            }
+            to{
+                left:100%;
+            }
+        }
+        @keyframes animateY{
+            from{
+                top:0;
+            }
+            to{
+                top:100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
