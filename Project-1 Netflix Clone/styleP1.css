@@ -11,7 +11,7 @@
     height: 644px;
     margin: 0;
     padding: 0;
-    position:absolute;
+    position:relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
     top: 0;
@@ -74,6 +74,9 @@ h1{
     border: 2px solid rgb(72, 71, 71);
     border-radius: 4px;
 }
+.form input{
+    color:white;
+}
 .sub-btn{
     width:150px;
     padding:6px;
@@ -82,6 +85,7 @@ h1{
     background-color: red;
     border-color: red;
     font-size: medium;
+    color: white;
 }
 .submit{
     display: flex;
@@ -89,6 +93,53 @@ h1{
     justify-content: center;
     margin-top: 20px;
 }
-.other-box{
+.first-box , .second-box , .third-box{
+    display: flex;
     background-color: black;
+    height:500px;
+    max-width:100%;
+    margin:auto;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-bottom: 10px solid ;
+    border-bottom-color: rgb(39, 38, 38);
+}
+.first-image{
+    position:relative;
+    z-index: 10;
+}
+.first-video{
+    position: absolute;
+    top:750px;
+    right:165px ;
+    width:466px;
+}
+section.first-box>div{
+    display:flex;
+    flex-direction: column;
+    padding: 34px 24px 34px 24px;
+}
+.first-box h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.first-box span{
+    font-size: 20px;
+}
+.second-box img{
+    height:400px;
+}
+section.second-box>div:nth-child(2){
+    display:flex;
+    flex-direction: column;
+    padding: 34px 200px 34px 60px;
+}
+.second-box h2{
+    font-size: 49px;
+    font-weight: bolder;
+}
+.second-box span{
+    font-size: 20px;
+    margin-top: 400px;
 }
