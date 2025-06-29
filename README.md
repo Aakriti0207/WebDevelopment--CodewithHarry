@@ -1,6 +1,4 @@
-# WebDevelopment--CodewithHarry
 # Web Development Course 🚀 | CodeWithHarry
-
 This repository contains my notes, practice codes, and mini-projects while learning **Web Development** from **CodeWithHarry's Complete Web Development Course**. I’m using this repo to track my progress and revisions as I learn.
 
 ## 📚 Course Topics Covered
