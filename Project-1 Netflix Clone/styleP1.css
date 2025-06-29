@@ -6,7 +6,7 @@
 
 
 .main{
-    background-image: url(assets/images/bg.jpg);
+    background-image: url(assets/images/bg1.jpg);
     width: 100%;
     height: 644px;
     margin: 0;
@@ -93,7 +93,7 @@ h1{
     justify-content: center;
     margin-top: 20px;
 }
-.first-box , .second-box , .third-box{
+.first-box,.second-box,.third-box,.fourth-box{
     display: flex;
     background-color: black;
     height:500px;
@@ -105,7 +105,7 @@ h1{
     border-bottom: 10px solid ;
     border-bottom-color: rgb(39, 38, 38);
 }
-.first-image{
+.first-image , .third-image{
     position:relative;
     z-index: 10;
 }
@@ -143,3 +143,35 @@ section.second-box>div:nth-child(2){
     font-size: 20px;
     margin-top: 400px;
 }
+section.third-box>div{
+    display:flex;
+    flex-direction: column;
+    padding: 34px 24px 34px 24px;
+}
+.third-box h2{
+    font-size: 49px;
+    font-weight: bolder;
+}
+.third-box span{
+    font-size: 20px;
+    margin-top: 400px;
+}
+.third-video{
+    position: absolute;
+    right: 250px;
+    width:400px;
+    top:1680px;
+}
+.fourth-box .content{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 140px 34px 200px;
+}
+.fourth-box h2{
+    font-size: 49px;
+    font-weight: bolder;
+}
+.fourth-box span{
+    font-size: 20px;
+}
+
