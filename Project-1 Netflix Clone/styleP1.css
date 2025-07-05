@@ -174,4 +174,50 @@ section.third-box>div{
 .fourth-box span{
     font-size: 20px;
 }
+.faq{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: black;
+    color: white;
+    border-bottom: 10px solid ;
+    border-bottom-color: rgb(39, 38, 38);
+}
+.faq h2{
+    align-self: center;
+    font-size: 48px;
+}
+.faq-box{
+    display: flex;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    width:80vw;
+    padding:20px 20px 20px 40px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.faq-box:hover{
+    background-color: #414141;
+    color:white;
+}
+footer{
+    background-color: black;
+    height:30vh;
+    color: white;
+    margin: auto;
+    /* padding: 60px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.questions{
+    padding:34px 10px 2px 90px;
+    color: #414141;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 2px 90px;
+    color:#414141;
+}
 
