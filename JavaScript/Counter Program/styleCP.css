@@ -1,5 +1,13 @@
+body{
+    text-align: center;
+}
 #counter{
-    display: flex;
     text-align: center;
     font-size: 100px;
+}
+.buttons{
+    color: white;
+    background-color: blue;
+    padding: 4px;
+    border-radius: 7px;
 }
