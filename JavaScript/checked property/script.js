@@ -8,6 +8,7 @@ const output = document.getElementById("output")
 button.onclick = function(){
     if(!check.checked){
         output.textContent = "check the tnc pls";
+        return;
     }
     if(tick1.checked){
         output.textContent = "proceed with UPI";
