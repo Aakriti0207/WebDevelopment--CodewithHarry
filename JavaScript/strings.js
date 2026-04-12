@@ -1,6 +1,6 @@
 let USERNAME = " AakritiArya ";
 
-console.log(USERNAME.length); //length is not a function
+console.log(USERNAME.length); //length is not a function - 13
 console.log(USERNAME.charAt(5)); // i
 console.log(USERNAME.indexOf('k')); //3
 console.log(USERNAME.lastIndexOf('a')); //11
@@ -31,3 +31,11 @@ first.concat("", last);
 
 let str = "apple,banana,mango";
 str.split(",");
+
+
+//Chaining Method
+//Capitalises name properly
+let playerName = " aakriti";
+playerName = playerName.trim();
+playerName = playerName.charAt(0).toUpperCase() + playerName.slice(1).toLowerCase();
+console.log(playerName); //Aakriti
