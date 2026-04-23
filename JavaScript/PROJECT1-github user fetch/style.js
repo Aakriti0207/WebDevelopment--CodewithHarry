@@ -49,3 +49,25 @@ input.addEventListener("keydown", (e) => {
         getData();
     }
 });
+
+let mode = document.getElementById("mode");
+mode.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+        mode.textContent = "Mode: Dark";
+        localStorage.setItem("theme", "dark");
+    } else {
+        mode.textContent = "Mode: Light";
+        localStorage.setItem("theme", "light");
+    }
+});
+
+let savedTheme = localStorage.getItem("theme");
+
+if(savedTheme === "dark"){
+    document.body.classList.add("dark");
+    mode.textContent = "Mode: Dark";
+}else{
+    mode.textContent = "Mode: Light";
+}
