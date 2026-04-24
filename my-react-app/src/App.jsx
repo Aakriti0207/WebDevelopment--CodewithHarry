@@ -3,6 +3,7 @@ import CounterProgram from "./components/counterConsole";
 import CounterProps from "./components/counterProps";
 import TeacherList from "./components/mapRender";
 import FavTeacher from "./components/forEachRender";
+import Form from "./components/formSample";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CounterProps />
       <TeacherList />
       <FavTeacher />
+      <Form />
     </>
   );
 }
